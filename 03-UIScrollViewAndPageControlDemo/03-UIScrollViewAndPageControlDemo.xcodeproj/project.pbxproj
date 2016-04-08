@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC88D0881CB79F3200134487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88D0871CB79F3200134487 /* main.m */; };
+		CC88D08B1CB79F3200134487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88D08A1CB79F3200134487 /* AppDelegate.m */; };
+		CC88D08E1CB79F3200134487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88D08D1CB79F3200134487 /* ViewController.m */; };
+		CC88D0911CB79F3300134487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC88D08F1CB79F3300134487 /* Main.storyboard */; };
+		CC88D0941CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC88D0921CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodeld */; };
+		CC88D0961CB79F3300134487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC88D0951CB79F3300134487 /* Assets.xcassets */; };
+		CC88D0991CB79F3300134487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC88D0971CB79F3300134487 /* LaunchScreen.storyboard */; };
+		CC88D0A41CB79F3300134487 /* _3_UIScrollViewAndPageControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88D0A31CB79F3300134487 /* _3_UIScrollViewAndPageControlDemoTests.m */; };
+		CC88D0AF1CB79F3400134487 /* _3_UIScrollViewAndPageControlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88D0AE1CB79F3400134487 /* _3_UIScrollViewAndPageControlDemoUITests.m */; };
+		CC88D0C01CB79F5300134487 /* new_feature_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88D0BD1CB79F5300134487 /* new_feature_1@2x.png */; };
+		CC88D0C11CB79F5300134487 /* new_feature_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88D0BE1CB79F5300134487 /* new_feature_2@2x.png */; };
+		CC88D0C21CB79F5300134487 /* new_feature_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88D0BF1CB79F5300134487 /* new_feature_3@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC88D0A01CB79F3300134487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC88D07B1CB79F3100134487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC88D0821CB79F3200134487;
+			remoteInfo = "03-UIScrollViewAndPageControlDemo";
+		};
+		CC88D0AB1CB79F3300134487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC88D07B1CB79F3100134487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC88D0821CB79F3200134487;
+			remoteInfo = "03-UIScrollViewAndPageControlDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC88D0831CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-UIScrollViewAndPageControlDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88D0871CB79F3200134487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC88D0891CB79F3200134487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC88D08A1CB79F3200134487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC88D08C1CB79F3200134487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC88D08D1CB79F3200134487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC88D0901CB79F3300134487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC88D0931CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _3_UIScrollViewAndPageControlDemo.xcdatamodel; sourceTree = "<group>"; };
+		CC88D0951CB79F3300134487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC88D0981CB79F3300134487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC88D09A1CB79F3300134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88D09F1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-UIScrollViewAndPageControlDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88D0A31CB79F3300134487 /* _3_UIScrollViewAndPageControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_UIScrollViewAndPageControlDemoTests.m; sourceTree = "<group>"; };
+		CC88D0A51CB79F3300134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88D0AA1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-UIScrollViewAndPageControlDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88D0AE1CB79F3400134487 /* _3_UIScrollViewAndPageControlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_UIScrollViewAndPageControlDemoUITests.m; sourceTree = "<group>"; };
+		CC88D0B01CB79F3400134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88D0BD1CB79F5300134487 /* new_feature_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1@2x.png"; sourceTree = "<group>"; };
+		CC88D0BE1CB79F5300134487 /* new_feature_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2@2x.png"; sourceTree = "<group>"; };
+		CC88D0BF1CB79F5300134487 /* new_feature_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC88D0801CB79F3200134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D09C1CB79F3300134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D0A71CB79F3300134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC88D07A1CB79F3100134487 = {
+			isa = PBXGroup;
+			children = (
+				CC88D0851CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */,
+				CC88D0A21CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests */,
+				CC88D0AD1CB79F3400134487 /* 03-UIScrollViewAndPageControlDemoUITests */,
+				CC88D0841CB79F3200134487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC88D0841CB79F3200134487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0831CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo.app */,
+				CC88D09F1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests.xctest */,
+				CC88D0AA1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC88D0851CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0891CB79F3200134487 /* AppDelegate.h */,
+				CC88D08A1CB79F3200134487 /* AppDelegate.m */,
+				CC88D08C1CB79F3200134487 /* ViewController.h */,
+				CC88D08D1CB79F3200134487 /* ViewController.m */,
+				CC88D08F1CB79F3300134487 /* Main.storyboard */,
+				CC88D0951CB79F3300134487 /* Assets.xcassets */,
+				CC88D0971CB79F3300134487 /* LaunchScreen.storyboard */,
+				CC88D09A1CB79F3300134487 /* Info.plist */,
+				CC88D0921CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodeld */,
+				CC88D0861CB79F3200134487 /* Supporting Files */,
+			);
+			path = "03-UIScrollViewAndPageControlDemo";
+			sourceTree = "<group>";
+		};
+		CC88D0861CB79F3200134487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0871CB79F3200134487 /* main.m */,
+				CC88D0BC1CB79F5300134487 /* scrollView */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC88D0A21CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0A31CB79F3300134487 /* _3_UIScrollViewAndPageControlDemoTests.m */,
+				CC88D0A51CB79F3300134487 /* Info.plist */,
+			);
+			path = "03-UIScrollViewAndPageControlDemoTests";
+			sourceTree = "<group>";
+		};
+		CC88D0AD1CB79F3400134487 /* 03-UIScrollViewAndPageControlDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0AE1CB79F3400134487 /* _3_UIScrollViewAndPageControlDemoUITests.m */,
+				CC88D0B01CB79F3400134487 /* Info.plist */,
+			);
+			path = "03-UIScrollViewAndPageControlDemoUITests";
+			sourceTree = "<group>";
+		};
+		CC88D0BC1CB79F5300134487 /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CC88D0BD1CB79F5300134487 /* new_feature_1@2x.png */,
+				CC88D0BE1CB79F5300134487 /* new_feature_2@2x.png */,
+				CC88D0BF1CB79F5300134487 /* new_feature_3@2x.png */,
+			);
+			path = scrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC88D0821CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88D0B31CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemo" */;
+			buildPhases = (
+				CC88D07F1CB79F3200134487 /* Sources */,
+				CC88D0801CB79F3200134487 /* Frameworks */,
+				CC88D0811CB79F3200134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-UIScrollViewAndPageControlDemo";
+			productName = "03-UIScrollViewAndPageControlDemo";
+			productReference = CC88D0831CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC88D09E1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88D0B61CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemoTests" */;
+			buildPhases = (
+				CC88D09B1CB79F3300134487 /* Sources */,
+				CC88D09C1CB79F3300134487 /* Frameworks */,
+				CC88D09D1CB79F3300134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC88D0A11CB79F3300134487 /* PBXTargetDependency */,
+			);
+			name = "03-UIScrollViewAndPageControlDemoTests";
+			productName = "03-UIScrollViewAndPageControlDemoTests";
+			productReference = CC88D09F1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC88D0A91CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88D0B91CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemoUITests" */;
+			buildPhases = (
+				CC88D0A61CB79F3300134487 /* Sources */,
+				CC88D0A71CB79F3300134487 /* Frameworks */,
+				CC88D0A81CB79F3300134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC88D0AC1CB79F3300134487 /* PBXTargetDependency */,
+			);
+			name = "03-UIScrollViewAndPageControlDemoUITests";
+			productName = "03-UIScrollViewAndPageControlDemoUITests";
+			productReference = CC88D0AA1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC88D07B1CB79F3100134487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CC88D0821CB79F3200134487 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CC88D09E1CB79F3300134487 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC88D0821CB79F3200134487;
+					};
+					CC88D0A91CB79F3300134487 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC88D0821CB79F3200134487;
+					};
+				};
+			};
+			buildConfigurationList = CC88D07E1CB79F3100134487 /* Build configuration list for PBXProject "03-UIScrollViewAndPageControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC88D07A1CB79F3100134487;
+			productRefGroup = CC88D0841CB79F3200134487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC88D0821CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */,
+				CC88D09E1CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoTests */,
+				CC88D0A91CB79F3300134487 /* 03-UIScrollViewAndPageControlDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC88D0811CB79F3200134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88D0991CB79F3300134487 /* LaunchScreen.storyboard in Resources */,
+				CC88D0961CB79F3300134487 /* Assets.xcassets in Resources */,
+				CC88D0C11CB79F5300134487 /* new_feature_2@2x.png in Resources */,
+				CC88D0C01CB79F5300134487 /* new_feature_1@2x.png in Resources */,
+				CC88D0C21CB79F5300134487 /* new_feature_3@2x.png in Resources */,
+				CC88D0911CB79F3300134487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D09D1CB79F3300134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D0A81CB79F3300134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC88D07F1CB79F3200134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88D08E1CB79F3200134487 /* ViewController.m in Sources */,
+				CC88D0941CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodeld in Sources */,
+				CC88D08B1CB79F3200134487 /* AppDelegate.m in Sources */,
+				CC88D0881CB79F3200134487 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D09B1CB79F3300134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88D0A41CB79F3300134487 /* _3_UIScrollViewAndPageControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88D0A61CB79F3300134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88D0AF1CB79F3400134487 /* _3_UIScrollViewAndPageControlDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC88D0A11CB79F3300134487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC88D0821CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */;
+			targetProxy = CC88D0A01CB79F3300134487 /* PBXContainerItemProxy */;
+		};
+		CC88D0AC1CB79F3300134487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC88D0821CB79F3200134487 /* 03-UIScrollViewAndPageControlDemo */;
+			targetProxy = CC88D0AB1CB79F3300134487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC88D08F1CB79F3300134487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC88D0901CB79F3300134487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC88D0971CB79F3300134487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC88D0981CB79F3300134487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC88D0B11CB79F3400134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC88D0B21CB79F3400134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC88D0B41CB79F3400134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC88D0B51CB79F3400134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC88D0B71CB79F3400134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-UIScrollViewAndPageControlDemo.app/03-UIScrollViewAndPageControlDemo";
+			};
+			name = Debug;
+		};
+		CC88D0B81CB79F3400134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-UIScrollViewAndPageControlDemo.app/03-UIScrollViewAndPageControlDemo";
+			};
+			name = Release;
+		};
+		CC88D0BA1CB79F3400134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-UIScrollViewAndPageControlDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC88D0BB1CB79F3400134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03-UIScrollViewAndPageControlDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-3-UIScrollViewAndPageControlDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03-UIScrollViewAndPageControlDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC88D07E1CB79F3100134487 /* Build configuration list for PBXProject "03-UIScrollViewAndPageControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88D0B11CB79F3400134487 /* Debug */,
+				CC88D0B21CB79F3400134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC88D0B31CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88D0B41CB79F3400134487 /* Debug */,
+				CC88D0B51CB79F3400134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC88D0B61CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88D0B71CB79F3400134487 /* Debug */,
+				CC88D0B81CB79F3400134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC88D0B91CB79F3400134487 /* Build configuration list for PBXNativeTarget "03-UIScrollViewAndPageControlDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88D0BA1CB79F3400134487 /* Debug */,
+				CC88D0BB1CB79F3400134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC88D0921CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC88D0931CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodel */,
+			);
+			currentVersion = CC88D0931CB79F3300134487 /* _3_UIScrollViewAndPageControlDemo.xcdatamodel */;
+			path = _3_UIScrollViewAndPageControlDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC88D07B1CB79F3100134487 /* Project object */;
+}
